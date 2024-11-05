@@ -187,7 +187,6 @@
   line-height: 30px;
   margin-bottom: 32px;
   height: 60px;
-
 }
 
 .reservation__title {
@@ -197,7 +196,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
- 
+  margin: 0 auto 80px auto;
 }
 
 .reservation {
@@ -215,7 +214,6 @@
   max-width: 385px;
   justify-content: center;
   margin: auto;
-  margin-bottom: 120px;
   margin-top: 80px;
   border: 0;
 }
@@ -245,16 +243,12 @@
 }
 
 .reservation__button:hover {
-    opacity: 70%;
+  opacity: 70%;
 }
-
-
-
 
 .reservation__container {
   padding: 0;
   border: 0;
-  
 }
 
 .reservation__container-checkbox {
@@ -264,16 +258,14 @@
   gap: 15px;
   justify-content: center;
   padding-top: 32px;
-
 }
 
-
 .reservation__input::placeholder {
-    
-    padding-left: 20px; 
-    padding-top: 15px;
-  }
+  padding-left: 20px;
+  padding-top: 15px;
+}
 
-  .reservation__container-checkbox input[type="checkbox"] {
-    width: 20px; 
-    height: 20px; }
+.reservation__container-checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
