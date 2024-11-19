@@ -6,37 +6,20 @@
     <meta name="author" content="Angel Mendoza" />
     <meta name="keywords" content="cafeteria, tienda de cafe" />
     <meta name="description" content="cafeteria y tienda digital de cafe" />
-    <!--se elimunó link que vincula a normalize-->
+    <link
+      rel="stylesheet"
+      href="../web_project_coffeeshop-main/vendor/normalize.css"
+    />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,400&display=swap"
       rel="stylesheet"
     />
     <title>coffee stand</title>
@@ -52,11 +35,10 @@
           />
           <ul class="nav__links">
             <li><a class="nav__link" href="#recipes">Recetas</a></li>
-            <!--poner enlaces-->
             <li>
               <a class="nav__link" href="#reservation">Reservar una mesa</a>
             </li>
-            <li><a class="nav__link" href="">Contactos</a></li>
+            <li><a class="nav__link" href="#footer">Contacto</a></li>
           </ul>
         </nav>
 
@@ -159,8 +141,8 @@
               />
 
               <label class="form__label" for="comensales"
-                >Número de comensales* </label
-              ><!-- completar ID y for-->
+                >Número de comensales*</label
+              >
               <input
                 type="number"
                 class="form__input"
@@ -204,7 +186,7 @@
           </form>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="footer" id="footer">
         <div class="footer__content">
           <div>
             <img
